@@ -1,0 +1,433 @@
+body{
+    background-color: #1D2123;
+}
+
+.nav-sections{
+    display: none;
+}
+
+.nav-profile{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 14px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.logo{
+    width: 25px;
+    height: 28;
+    margin-top: 7.83px;
+    margin-left: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sec1{
+    background-color: #609EAF;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 0px 30px 20px;
+    margin: 0px 0px 0px 9%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 373px;
+    max-width: 314px;
+}
+
+.vec{
+    height: 167.6px;
+    position: relative;
+    margin-left: 210px;
+    margin-top: -5px;
+    transform: matrix(-1.5, -0.93, -0.93, 0.66, 0.5, 0);
+}
+
+.burnapic{
+    display: none;
+}
+
+.header{
+    margin-bottom: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -140px;
+}
+
+.title{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    margin: 0px;
+}
+
+.content{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.charts{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.chart-box{
+    background-color: #1A1E1F;
+    margin: 0px 5px 0px 5px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 160px;
+}
+
+.chart-img{
+    width: 90px;
+    height: 80px;
+}
+
+.ellipse{
+    width: 30px;
+    height: 30px;
+}
+
+.stroke{
+    margin-left: -23.5px;
+    margin-bottom: 6px;
+}
+
+.heart{
+    margin-left: 265px;
+    margin-top: -140px;
+}
+
+.chart-text{
+    margin: 5px 0px 0px 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.chart-text1{
+    margin: 5px 0px 0px 0px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.chart-text2{
+    margin: 5px 0px 0px 0px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.releases{
+    display: flex;
+    padding: 5px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    z-index: 1;  
+}
+
+.sec-headers{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.sec-headers1{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.release-img{
+    width: 150px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+.current_song{
+    background-color: white;
+    margin: -465px -8px -8px -8px;
+    display: none;
+    color: white;
+    padding: 15px;
+    z-index: 4;
+    position: relative;
+    backdrop-filter: blur(15px);
+    background: rgba(29, 33, 35, 0.3);
+    width: 100%;
+}
+
+.current{
+    width: 70px;
+    height: 75px;
+    border-radius: 20px;
+}
+
+.next{
+    float: right;
+    height: 30px;
+    margin-top: 26px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.play{
+    margin-left: 230px;
+    height: 80px;
+    position: absolute;
+}
+
+.title_artist{
+    margin: 7px 0px 0px 10px;
+    line-height: 10px;
+}
+
+.song_t{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.artist{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.shuffle{
+    display: none;
+}
+
+.previous{
+    display: none;
+}
+
+.repeat{
+    display: none;
+}
+
+.volume{
+    display: none;
+}
+
+.seek-bar-container{
+    display: none;
+}
+
+.seek-bar-container1{
+    display: none;
+}
+
+
+/*********************Collections page design*************************/
+.sec-btn{
+    display: flex;
+}
+
+.btn1{
+    border: 1px solid;
+    border-radius: 250px;
+    width: 1950px;
+    margin: 10px;
+    background-color: #FACD66;
+}
+
+.btn1:hover{
+    background-color: #1D2123;
+    color: #EFEEE0;
+    border: 1px solid white;
+}
+
+.btn2{
+    border: 1px solid #EFEEE0;
+    border-radius: 250px;
+    width: 1950px;
+    margin: 10px;
+    color: #EFEEE0;
+}
+
+.btn2:hover{
+    background-color: #FACD66;
+    color: #1A1E1F;
+    border: 1px solid;
+}
+
+.btn-text1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.btn-text2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.collection-img{
+    width: 330px;
+    height: 230px;
+}
+
+.col-1{
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 230px;
+}
+
+.col-1:hover .col-content{
+    margin-top: -100px;
+}
+
+.col-content{
+    margin-top: -55px;
+    color: #EFEEE0;
+    margin-left: 20px;
+    transition: margin-top 0.4s ease-in;
+}
+
+.col-artist{
+    font-size: 16px;
+    margin: 0px;
+}
+
+.col-title{
+    font-size: 25px;
+    margin: 0px;
+}
+
+.col{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.current_song1{
+    background-color: white;
+    margin: -400px -8px -8px -8px;
+    display: flex;
+    color: white;
+    padding: 15px;
+    z-index: 4;
+    position: fixed;
+    backdrop-filter: blur(15px);
+    background: rgba(29, 33, 35, 0.3);
+    width: 350px;
+}
+
+/******************tunes page******************/
+.tunes-img{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 340px;
+}
+
+.tunes-header{
+    color: #A4C7C6;
+    font-size: 35px;
+    margin: 5px 10px 0px 10px;
+    font-weight: 700;
+}
+
+.tunes-content{
+    color: #EFEEE0;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.tunes-time{
+    color: #EFEEE0;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.options{
+    display: flex;
+    color: white;
+}
+
+.option1{
+    display: flex;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 20px;
+    padding: 5px;
+    height: 40px;
+    width: 145px;
+}
+
+.option2{
+    display: flex;
+    background: rgba(255, 255, 255, 0.07);
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    height: 40px;
+    width: 230px;
+}
+
+.option3{
+    display: flex;
+    background: rgba(255, 255, 255, 0.07);
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+}
+
+.option-content{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+
+.tune-songs{
+    display: flex;
+    background: rgba(51, 55, 59, 0.37);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.likee{
+    display: none;
+}
+
+.label{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 2px;
+}
+
+.more-op{
+    position: absolute;
+    margin-left: 320px;
+}
+
+.music-dur{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 25px;
+}
+
+.company{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 25px;
+}

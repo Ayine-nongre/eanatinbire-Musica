@@ -1,0 +1,471 @@
+@media (min-width: 600px) {
+    body{
+        display: flex;
+    }
+
+    .logo1{
+        display: inline;
+        margin-top: 20px;
+        fill: #EFEEE0;
+        fill-opacity: 0.25;
+    }
+
+   
+   .logo1:hover{
+    fill: #ffb405;
+    fill-opacity: 1;
+   }
+
+    .logo2{
+        margin-top: 10px;
+        fill: #EFEEE0;
+        fill-opacity: 0.25;
+    }
+
+    .logo2:hover{
+        fill: #ffb405;
+        fill-opacity: 1;
+    }
+
+
+    .logo3{
+        display: inline;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        fill: #EFEEE0;
+        fill-opacity: 0.25;
+    }
+
+    .logo3:hover{
+        fill: #ffb405;
+        fill-opacity: 1;
+    }
+
+    #active{
+        fill: #ffb405;
+        fill-opacity: 1;
+    }
+
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-sections{
+        display: flex;
+        flex-direction: column;
+        background-color: #1A1E1F;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        width: 20px;
+    }
+    
+    .nav-profile{
+        display: flex;
+        flex-direction: column;
+        background-color: #1A1E1F;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 20px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .burnapic{
+        display: block;
+        position: absolute;
+        margin-top: -344px;
+        margin-left: 325px;
+    }
+
+    .sec1{
+        background-color: #609EAF;
+        border-radius: 40px;
+        color: white;
+        padding: 10px 0px 30px 20px;
+        margin: 55px 0px 0px 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 333px;
+        max-width: 686px;
+    }
+
+    .vec{
+        height: 420px;
+        position: relative;
+        margin-left: 180px;
+        margin-top: 0px;
+        transform: none;
+    }
+
+    .header{
+        margin-bottom: 150px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: -400px;
+    }
+
+    .grid{
+        display: flex;
+    }
+
+    .charts{
+        display: inline;
+        overflow-y: none;
+        overflow-x: none;
+    }
+
+    .chart-box{
+        background-color: #1A1E1F;
+        margin: 15px 5px 0px 15px;
+        border-radius: 20px;
+        padding: 10px;
+        height: 70px;
+    }
+
+    .inner{
+        display: flex;
+    }
+
+    .heart{
+        margin-left: 285px;
+        margin-top: -50px;
+    }
+
+    .chart-img{
+        width: 75px;
+        height: 70px;
+    }
+    
+    .chart-text{
+        margin: 5px 0px 0px 10px;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+    
+    .chart-text1{
+        margin: 5px 0px 0px 10px;
+        color: #FFFFFF;
+        font-size: 10px;
+    }
+    
+    .chart-text2{
+        margin: 5px 0px 0px 10px;
+        color: #FFFFFF;
+        font-size: 10px;
+    }
+
+    .sec-headers{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 25px;
+        margin-top: 70px;
+    }
+
+    .sec-headers1{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 30px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .releases{
+        display: flex;
+        padding: 5px;
+        overflow-y: hidden;
+        overflow-x: auto;
+        z-index: 1; 
+        margin-top: -10px; 
+        margin-left: 20px;
+    }
+
+    .release-img{
+        width: 160px;
+        height: 170px;
+        margin-right: 20px;
+    }
+
+    .current_song{
+        background-color: white;
+        margin: -337px 0px 0px -70px;
+        display: none;
+        color: white;
+        padding: 15px;
+        z-index: 4;
+        position: fixed;
+        backdrop-filter: blur(15px);
+        background: rgba(29, 33, 35, 0.3);
+        width: 1400px;
+    }
+
+    .shuffle{
+        height: 20px;
+        margin-left: 550px;
+        margin-top: 20px;
+        position: absolute;
+        display: block;
+    }
+
+    .previous{
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 610px;
+        position: absolute;
+        display: block;
+    }
+
+    .repeat{
+        height: 20px;
+        margin-left: 750px;
+        margin-top: 20px;
+        position: absolute;
+        display: block;
+    }
+
+    .volume{
+        height: 20px;
+        margin-left: 1085px;
+        margin-right: 150px;
+        margin-top: 30px;
+        position: absolute;
+        display: block;
+    }
+    
+    .next{
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 690px;
+        position: inherit;
+    }
+    
+    .play{
+        margin-left: 620px;
+        height: 80px;
+        margin-top: -10px;
+        position: absolute;
+    }
+
+    .current{
+        width: 70px;
+        height: 75px;
+        border-radius: 20px;
+        margin-left: 75px;
+    }
+
+    .seek-bar-container{
+        position: absolute;
+        margin-left: 265px;
+        margin-top: 60px;
+        display: block;
+    }
+
+    .music-seek-bar{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 570%;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 50px;
+        height: 5px;
+        accent-color: yellow;
+    }
+
+    .music-seek-bar::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        background: #FACD66;
+        appearance: none;
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        border: 1px solid white;
+        border-radius: 50%;
+        
+    }
+
+    .seek-bar-container1{
+        position: absolute;
+        margin-left: 1115px;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .volume-seek-bar{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 120%;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 50px;
+        height: 5px;
+        transition: .2s;
+        -webkit-transition: .2s;
+    }
+
+    .volume-seek-bar::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        background: #FACD66;
+        appearance: none;
+        cursor: pointer;
+        height: 5px;
+        width: 5px;
+    }
+
+    /*************************Collections page ****************************/
+    .sec-btn{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .btn1{
+        border: 1px solid;
+        border-radius: 250px;
+        width: 220px;
+        margin: 10px;
+        background-color: #FACD66;
+    }
+    
+    .btn2{
+        border: 1px solid #EFEEE0;
+        border-radius: 250px;
+        width: 1950px;
+        margin: 10px;
+        color: #EFEEE0;
+        width: 130px; 
+    }
+
+    .btn-text1{
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 45px;
+    }
+    
+    .btn-text2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 40px;
+    }
+
+    .collection-img{
+        width: 270px;
+        height: 250px;
+    }
+    
+    .col-1{
+        overflow-y: hidden;
+        margin-bottom: 20px;
+        height: 252px;
+    }
+    
+    .col-1:hover .col-content{
+        margin-top: -90px;
+    }
+    
+    .col-content{
+        margin-top: -55px;
+        color: #EFEEE0;
+        margin-left: 20px;
+        transition: margin-top 0.4s ease-in;
+    }
+
+    .col{
+        margin-left: 10px;
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .current_song1{
+            background-color: white;
+            margin: 114px 0px 0px -70px;
+            display: none;
+            color: white;
+            padding: 15px;
+            z-index: 4;
+            position: fixed;
+            backdrop-filter: blur(15px);
+            background: #1E1E1E;
+            width: 1400px;
+            border: 1px solid #1E1E1E;
+    }
+
+    /*******************************tunes page************************/
+    .tunes-img{
+        margin-left: 20px;
+        margin-top: 60px;
+        width: 284px;
+    }
+    
+    .top{
+        display: flex;
+    }
+
+    .tunes-header{
+        margin: 155px 10px 0px 20px;
+    }
+
+    .tunes-content{
+        margin-left: 20px;
+    }
+
+    .tunes-time{
+        margin-left: 20px;
+    }
+
+    .options{
+        display: flex;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .option1{
+        width: 85px;
+    }
+    
+    .option2{
+        width: 145px;
+    }
+    
+    .option3{
+        width: 75px;
+    }
+
+    .tune-songs{
+       margin-left: 20px;
+       width: 1150px;
+    }
+    
+    .likee{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .more-op{
+        margin-left: 1100px;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .label{
+        margin-top: 15px;
+        margin-left: 175px;
+    }
+
+    .company{
+        margin-left: 490px;
+        margin-top: 15px;
+    }
+
+    .music-dur{
+        margin-left: 790px;
+        margin-top: 15px;
+    }
+}
